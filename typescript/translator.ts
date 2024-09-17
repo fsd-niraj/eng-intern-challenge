@@ -138,8 +138,13 @@ function main() {
     process.exit(1);
   }
 
+<<<<<<< HEAD
   const input = args.join(" ");
   const translator = new Translator(input);
+=======
+  const param = args.join(" ");
+  const translator = new Translator(param);
+>>>>>>> 462c65b15269244e2dd97dca83c889738f97551d
   console.log(translator.translate());
 }
 
